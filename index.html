@@ -327,6 +327,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
     integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
     crossorigin="anonymous"></script>
-</body>
+    <script>  window.watsonAssistantChatOptions = {      integrationID: "f5d2fca4-b626-4501-9261-729dc8c5c2b5", // The ID of this integration.      
+    region: "us-south", // The region your integration is hosted in.      
+    serviceInstanceID: "4dbbbd23-47bf-43ce-8d8a-a7e6a6596b40", // The ID of your service instance.      
+    onLoad: function(instance) { instance.render(); }    
+    };  
+    setTimeout(function(){    
+      const t=document.createElement('script');    
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";    
+      document.head.appendChild(t);  
+      });</script>
+
+  </body>
 
 </html>
