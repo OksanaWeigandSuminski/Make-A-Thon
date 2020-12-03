@@ -34,7 +34,7 @@ html,body{
 }
 #us a:hover {
     text-decoration: none;
-    color: dimgray;
+    color:#808080;
 }
 /*about session start*/
 .top-heading p{width: 100%; text-align: center; color: #787878; font-size: 60px; text-transform: capitalize;}
