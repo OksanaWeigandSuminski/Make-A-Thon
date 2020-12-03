@@ -2,14 +2,19 @@ html,body{
 	height: 100%; width: 100%;
 }
 
-.my-nav{background-color: rgba(0,0,0,0.50)!important; position:fixed;}
-.my-nav .nav-link{color: #ffffff; font-size: 18px;}
-.my-nav .nav-link:hover{color: rgba(255, 255, 255, 0.5);}
-.navbar-toggler-icon{color: white;}
+.my-nav li .nav-link{
+    font-size: 18px;
+    color: dimgray !important;
+}
+.navbar-brand{
+    font-size: 18px;
+    color: dimgray !important;
+}
+.navbar-brand:hover{color: #808080 !important;}
+.my-nav li .nav-link:hover{color: #808080 !important;}
 
-.navbar-nav > a{
+.navbar-nav > li>a{
  line-height: 50px;
- float: right;
   }
 
 .jumbotron{
@@ -67,7 +72,7 @@ html,body{
 .blog-footer {
     padding: 2.5rem 0;
     color: #808080;
-    text-align: center;
+    text-align: left;
 }
 .blog-footer a{
     text-decoration: none;
