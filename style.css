@@ -41,7 +41,7 @@ html,body{
     text-decoration: none;
     color:#808080;
 }
-/*about session start*/
+/*call to action start*/
 .top-heading p{width: 100%; text-align: center; color: #787878; font-size: 60px; text-transform: capitalize;}
 
 .card,.card1,.card2,.card3 {
@@ -56,9 +56,9 @@ html,body{
 .card .card-text{color: #737373; font-weight: 600;}
 .card1,.card2,.card3{background-color: rgba(0,0,0,0.15); transition: 1s;}
 .card1:hover,.card2:hover,.card3:hover{background-color: rgba(0,0,0,0.05); transition: 1s;}
-/*about session end*/
+/*call to action end*/
 
-/*why u come here start*/
+/*about start*/
 
 .custom-btn{background-color: white; border-color: dimgray; color: dimgray;transition: 1s;}
 .custom-btn:hover{background-color: dimgray; border-color: white; color: white;transition: 1s;}
@@ -67,7 +67,7 @@ html,body{
 .hero-paragraph{color: #767676; font-size: 25px;}
 .hero-img{border-radius: 5px 5px 5px 5px;}
 
-/*why u come here end*/
+/*about end*/
 
 .blog-footer {
     padding: 2.5rem 0;
